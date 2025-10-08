@@ -90,4 +90,11 @@ cryoTIGER_interpolation.ipynb
 <tutorial_data>/<interpolated_TS>
 ```
 
-Note: Typical running time on GeForce RTX 3090 is around 5 minutes per tomogram.
+*   In order to obtain the aligned stack for the input to cryoTIGER, we recomment to use IMOD `newstack` command:
+```
+newstack -bin 2 -InputFile /path/to/input/{TOMO_ID}_dose-filt.st \
+            -xform /path/to/input/alignment_files/{TOMO_ID}.xf -origin -nearest \
+            -output /path/to/output/{TOMO_ID}_dose-filt_ali_bin2.mrc
+```
+
+**Note:** Typical running time on GeForce RTX 3090 is around 5 minutes per tomogram.
