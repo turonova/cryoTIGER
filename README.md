@@ -1,5 +1,5 @@
 # cryoTIGER
-Tilt Interpolation Generator for Enhanced Reconstruction in cryo-electron tomography
+**T**ilt **I**nterpolation **G**enerator for **E**nhanced **R**econstruction in Cryo-Electron Tomography
 
 ## Installation
 
