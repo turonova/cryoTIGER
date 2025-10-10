@@ -1,6 +1,8 @@
 # cryoTIGER
 **T**ilt **I**nterpolation **G**enerator for **E**nhanced **R**econstruction in Cryo-Electron Tomography
 
+Published in *Communications Biology*: [https://www.nature.com/articles/s42003-025-08961-5](https://www.nature.com/articles/s42003-025-08961-5)
+
 ## Installation
 
 *   Get cryoTIGER source codes
@@ -96,3 +98,28 @@ newstack -bin 2 -InputFile /path/to/input/{TOMO_ID}_dose-filt.st \
             -xform /path/to/input/alignment_files/{TOMO_ID}.xf -origin -nearest \
             -output /path/to/output/{TOMO_ID}_dose-filt_ali_bin2.mrc
 ```
+
+## License
+
+This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
+
+## Citation
+
+### APA format
+
+Majtner, T., et al. (2025). cryoTIGER: deep-learning based tilt interpolation generator for enhanced reconstruction in cryo electron tomography. *Communications Biology, 8*, 1443. Nature Publishing Group. https://doi.org/10.1038/s42003-025-08961-5
+
+### BibTeX entry
+
+```bibtex
+@article{Majtner2025cryoTIGER,
+  author = {Tomáš Majtner and Jan Philipp Kreysing and Maarten W. Tuijtel and Sergio Cruz-León and Jiasui Liu and Gerhard Hummer and Martin Beck and Beata Turoňová},
+  title = {{cryoTIGER: deep-learning based tilt interpolation generator for enhanced reconstruction in cryo electron tomography}},
+  journal = {Communications Biology},
+  volume = {8},
+  article = {1443},
+  year = {2025},
+  doi = {10.1038/s42003-025-08961-5},
+  url = {https://www.nature.com/articles/s42003-025-08961-5},
+  publisher = {Nature Publishing Group}
+}
