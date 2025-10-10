@@ -96,5 +96,3 @@ newstack -bin 2 -InputFile /path/to/input/{TOMO_ID}_dose-filt.st \
             -xform /path/to/input/alignment_files/{TOMO_ID}.xf -origin -nearest \
             -output /path/to/output/{TOMO_ID}_dose-filt_ali_bin2.mrc
 ```
-
-**Note:** Typical running time on GeForce RTX 3090 is around 5 minutes per tomogram.
